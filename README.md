@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Welcome to your Navigation-app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -16,35 +16,30 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+### Descripción
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Este sencillo proyecta fue creado con la intención de entender los conceptos básicos de navegacion y personalizacion global de una app echa con react-native expo, en este proyecto se abarcan temas tales como:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Nativewind
+- StackNavigation
+- Estructura de directorios
+- Temas y fuentes personalizadas
+- Colores personalizados
 
-## Get a fresh project
+Nativewind es una biblioteca de estilos. Nativewind rocesa sus estilos durante el paso de compilación de su aplicación y utiliza un tiempo de ejecución mínimo para aplicar selectivamente estilos reactivos. NativeWind te permite usar Tailwind CSS para diseñar tus componentes en React Native.
+En este mini proyecto se personalizaron temas y fuentes a través de la configuración del archivo tailwind.config.js donde hace que estos colores y tipografías estén disponibles a lo largo de toda la app.
+En esta app también se utilizó la estructuras de carpetas para hacer una navegación en la cual cada nombre de carpeta pertenece a una pantalla determinada.
 
-When you're ready, run:
+### Description
 
-```bash
-npm run reset-project
-```
+This simple project was created with the intention of understanding the basic concepts of navigation and global customization of an app made with react-native expo. This project covers topics such as:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Nativewind
+- StackNavigation
+- Directory structure
+- Custom themes and fonts
+- Custom colors
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Nativewind is a style library. Nativewind processes its styles during the build step of your application and uses minimal runtime to selectively apply reactive styles. NativeWind allows you to use Tailwind CSS to style your components in React Native.
+In this mini project, themes and fonts were customized through the configuration of the tailwind.config.js file, which makes these colors and fonts available throughout the entire app.
+In this app, folder structures were also used to make navigation in which each folder name belongs to a specific screen.
