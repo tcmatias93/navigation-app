@@ -25,10 +25,13 @@ Este sencillo proyecta fue creado con la intención de entender los conceptos b�
 - Estructura de directorios
 - Temas y fuentes personalizadas
 - Colores personalizados
+- Drawer
+- Tabs
 
 Nativewind es una biblioteca de estilos. Nativewind rocesa sus estilos durante el paso de compilación de su aplicación y utiliza un tiempo de ejecución mínimo para aplicar selectivamente estilos reactivos. NativeWind te permite usar Tailwind CSS para diseñar tus componentes en React Native.
 En este mini proyecto se personalizaron temas y fuentes a través de la configuración del archivo tailwind.config.js donde hace que estos colores y tipografías estén disponibles a lo largo de toda la app.
 En esta app también se utilizó la estructuras de carpetas para hacer una navegación en la cual cada nombre de carpeta pertenece a una pantalla determinada.
+Adicionalmente a este proyecto se le agregó otro tipo de navegación y se combinaron todas para que quede funcional y se pueda navegar desde todos lados por la app.
 
 ### Description
 
@@ -39,7 +42,10 @@ This simple project was created with the intention of understanding the basic co
 - Directory structure
 - Custom themes and fonts
 - Custom colors
+- Drawer
+- Tabs
 
 Nativewind is a style library. Nativewind processes its styles during the build step of your application and uses minimal runtime to selectively apply reactive styles. NativeWind allows you to use Tailwind CSS to style your components in React Native.
 In this mini project, themes and fonts were customized through the configuration of the tailwind.config.js file, which makes these colors and fonts available throughout the entire app.
 In this app, folder structures were also used to make navigation in which each folder name belongs to a specific screen.
+In addition, another type of navigation was added to this project and they were all combined so that it is functional and the application can be navigated from all sides.
